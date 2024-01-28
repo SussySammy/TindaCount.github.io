@@ -1,0 +1,142 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.cdnfonts.com/css/microsoft-sans-serif" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Patua One' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TindaCountDemo</title>
+  </head>
+  <body>
+    
+    <div class="menu-bar">
+      <section id="menu-bar"></section>
+      <h1 class="logo">TindaCount</h1>
+      <div class="Image">
+        <!-- Logo Placeholder for Illustration -->
+        <a href="#home"><img width="100px" height="65px" position="relative" src="./396782043_1347182306171881_2954067650042030753_n_1_-removebg-preview.png"></a>
+        <div id="herop"><p id="beyond"> Beyond Counting </p>
+        
+        <p id="empower">    Empower Your Business with Precision Inventory Management. </p><a href="#">See more</a>
+        
+    </div>
+        
+      </div>
+      <ul>
+        <li><a href="#menu-bar">Home</a></li>
+        <li><a href="#Boggie2">About</a></li>
+        <li><a href="#">Pages <i class="fas fa-caret-down"></i></a>
+    
+            <div class="dropdown-menu">
+                <ul>
+                  <li><a href="#Sans2">Download</a></li>
+                  <li><a href="#">Portfolio</a></li>
+                  <li>
+                    <a href="#">Team <i class="fas fa-caret-right"></i></a>
+                    <div class="dropdown-menu-1">
+                      <ul>
+                        <li><a href="#">Leo</a></li>
+                        <li><a href="#">Jaycrew</a></li>
+                        <li><a href="#">Tajo</a></li>
+                        <li><a href="#">Delgado</a></li>
+                        <li><a href="#">Levin</a></li>
+                       </nav>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">FAQ</a></li>
+                </ul>
+              </div>
+        </li>
+        <li><a href="#">Blog</a>
+        </li>
+        <li><a href="#container">Contact us</a></li>
+      </ul>
+    </div>
+    <div class="hero">
+      &nbsp; <center><img id="TindaTinda" src="TindaCount3.gif"></div></center> 
+    </div>
+    <section id="Boggie2"></section>
+    <h3 style="text-align: left;" class="Boggie2">About TindaCount!</h3>
+    <h3 style="text-align: left;" class="Boggie1"><img src="TindaCountLogo2.png"  class="TindaCountLogo"/>
+      Unlock the potential of seamless stock management with TindaCount, 
+      your go-to desktop app for optimizing efficiency and daily 
+      sales revenue. This innovative inventory system is 
+      designed to revolutionize the way you handle stocks, 
+      providing a user-friendly interface and a plethora of features to 
+      streamline your business operations.</h3>
+      
+      <section id="Sans2"></section>
+    <h1 style="text-align: right;"  class="Sans2"><img src="windows-logo-logok-0.png" class="DownloadButton">Download in Windows!</h1>
+    <h1 style="text-align: right;" class="Sans3">
+      <a href="#">Click here</a>to Download the applicatiion TindaCount.
+      TindaCount is Only Available for Windows 7,8,10,11</h1>
+    <h1 style="text-align: center;"  class="Sans3">if the download isn't working<a href="#">click here</a>instead</h1> 
+    <h1 style="text-align: center;"  class="Sans3"></h1>
+     
+    <div class="container">
+    <form onsubmit="sendEmail(); reset(); return false;">
+      <h1 style="color: white;">Message The TindaCount!</h1>
+      <input type="text" id="name" placeholder="Your name" required>
+      <input type="text" id="email" placeholder="Email" required>
+      <input type="text" id="phone" placeholder="Phone no." required>
+      <textarea type="message" id="message1" rows="4" placeholder="Description:"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+       function sendEmail(){
+                  Email.send({
+              SecureToken: "168a9637-0ea3-4847-85d4-16d9c6c7922b",
+              To : 'samleriandelgado32@gmail.com',
+              From : document.getElementById("email").value,
+              Subject : "New Contact form Equiry",
+              Body : "Name: " + document.getElementById("name").value  
+                   + "<br> Email: " + document.getElementById("email").value
+                   + "<br> Phone no.: " + document.getElementById("phone").value
+                   + "<br> Message: " + document.getElementById("message1").value
+
+          }).then(
+            message => alert(message)
+          );
+      }
+    </script>
+    
+   
+    <section id="container"></section>
+    
+    <footer>
+        <div class="logo">
+          <img src="./396782043_1347182306171881_2954067650042030753_n_1_-removebg-preview.png" alt="TindaCount logo">
+        </div>
+        <div class="credits">
+          <b><p>Credits:</p></b><Br>
+          <p>Leo Bual</p>
+          <p>Jerzey Marc Tajo</p>
+          <p>Jaycrew Villanueva</p>
+          <p>Sam Lerian Delgado</p>
+          <p>Levin Luis Lustado</p>
+         
+        </div>
+        <div class="follow">
+            <b><p>Follow us:</p></b>
+          <Br>
+          <a href="https://www.facebook.com/TindaCount" target="_blank">Facebook</a>
+          <Br>
+          <a href="https://www.instagram.com/TindaCount" target="_blank">Instagram</a>
+          <Br>
+          <a href="https://twitter.com/TindaCount" target="_blank">Twitter</a>
+          <Br>
+          <a href="https://www.reddit.com/r/TindaCount" target="_blank">Reddit</a>
+        </div>
+      
+      </footer>
+      <div id="copyright"> <p>Copyright Â©2023 TindaCount Inc. All Right Reserved.</p></div>
+  </body>
+</html>
